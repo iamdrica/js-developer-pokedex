@@ -26,6 +26,17 @@
     <section class="content">
         <h1>Pokedex</h1>
 
+        <!--Barra de busca-->
+        <div class="search">
+            <input type="text" id="pokemonName" placeholder="Informe o nome ou número do Pokémon para saber mais detalhes">
+            <button id="searchButton">Buscar</button>
+            <button id="clearButton">Limpar</button>
+        </div>
+
+        <div id="pokemonDetails" class="pokemon-details">
+            <!-- Detalhes do Pokémon serão exibidos aqui -->
+        </div>
+
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
         </ol>
@@ -38,6 +49,8 @@
     </section>
 
     <!-- Nosso JS -->
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/details.js"></script>
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>

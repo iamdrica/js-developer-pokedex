@@ -146,6 +146,55 @@
     border-radius: 1rem;
 }
 
+/* Estilos para a barra de busca e botão */
+.search {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search input {
+    padding: 10px;
+    width: 70%;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#clearButton {
+    padding: 10px 20px;
+    background-color: red; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+.pokemon-details {
+    text-transform: capitalize;
+    width: 100%;
+    border-collapse: collapse;
+    color: black; 
+}
+
+.pokemon-details {
+    padding: 1rem;
+    border: 1px solid #fff; 
+    text-align: center;
+}
+
+.pokemon-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pokemon-info {
+    display: none; 
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
